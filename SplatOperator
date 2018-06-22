@@ -1,0 +1,14 @@
+/**
+  * Created by bijudevassy on 22/6/18.
+  */
+object SplatOperator extends App{
+
+  def printNames(names: String*){
+
+    names.foreach(println)
+  }
+
+  val names=List("A","B","C")
+  printNames(names:_*)
+
+}
